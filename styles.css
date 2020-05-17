@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  /* background-image: url("images/bg-tablet-pattern.svg"); */
+  /* background-attachment: fixed; */
+  /* background-size:75% */
+}
+
+.btn{
+  border-radius: 30px;
+}
+.header{
+  padding: 3% 1% 5% 1%;
+}
+.header-left{
+  margin: auto;
+
+  padding: 5% 2% ;
+}
+.header-right{
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-attachment: fixed;
+box-shadow: 2px 2px 5px;
+
+  background-size: 49%;
+
+}
+.header-image{
+  width: 90%;
+  height: 100%
+}
+.middle-div{
+  padding: 5% 2% 5% 2%;
+  text-align: left;
+}
+.middle-div-col{
+  margin: 4% 0%;
+}
+.crisole{
+  margin: 2% 1%;
+  padding: 3% 1%;
+  background-image: linear-gradient("");
+}
