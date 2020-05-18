@@ -7,7 +7,15 @@ body{
 
 .btn{
   border-radius: 30px;
+  background-color: #f3613c;
+  color: white;
+
 }
+.btn:hover{
+  background-color: #fafafa;
+  color: #f3613c;
+}
+
 .header{
   padding: 3% 1% 5% 1%;
 }
@@ -29,14 +37,58 @@ box-shadow: 2px 2px 5px;
   height: 100%
 }
 .middle-div{
-  padding: 5% 2% 5% 2%;
+  padding: 5% 1% 5% 1%;
   text-align: left;
 }
-.middle-div-col{
+.middle-div-col-left,.middle-div-col-right{
   margin: 4% 0%;
+  padding: 3%;
+}
+
+.middle-div-col-left{
+  box-shadow: 2px 3px 5px;
+
+}
+.carousel-indicators{
+  position: relative;
 }
 .crisole{
-  margin: 2% 1%;
-  padding: 3% 1%;
-  background-image: linear-gradient("");
+  margin: 2% auto;
+  padding: 3% 2%;
+
+
+
+}
+/* .img-of-card{
+  position:absolute;
+  left:34%;
+  top:-130px;
+  z-index: 1000;
+} */
+.card{
+  background-color: #fafafa;
+  box-shadow: 3px 3px 6px;
+}
+.crd-lft{
+  margin-left: 4%;
+  padding: 120px 10px 40px 10px;
+}
+.crd-rgt{
+  margin-left: 25%;
+  padding: 120px 10px 40px 10px;
+}
+.upper-footer{
+  padding: 6% 0%;
+
+  background-color: RGBA(243, 97, 60, 0.8);
+
+  background-image: url("images/bg-tablet-pattern.svg");
+  background-attachment: fixed;
+  background-size: 70%;
+  box-shadow: 2px 3px 5px;
+}
+.main-footer{
+  padding: 4% 2% 2% 2%;
+  color: white;
+  background-color: black;
 }
